@@ -13,9 +13,9 @@ Also a custom Sender name different from the sender's email address can be speci
 
 ### DEPENDENCIES
 The following modules are required
-* smtplib
+* smtplib:
   This is used to access the SMTP Server
-* SSL
+* SSL:
    This is used to ensure that the SMTP Server is accessed in a secured way
 
 Both libraries are inbuilt in python and so doesn't required any installation
@@ -40,5 +40,5 @@ During the process above, gmail may prompt you to re-login into the email accoun
 For more security, the password can be passed in as an environment variable so as not to input it directly as a plain string in the program.
 
 ### FRONT END
-A frontend can be created from where the email addresses of the sender both the sender and the recipients along with the required password 
+A frontend can be created from where the email addresses of both the sender and the recipients along with the required password 
 are passed into the program
